@@ -1,2 +1,2 @@
 openai == 0.28
-!pip freeze 
+scikit learn==1.3.2
