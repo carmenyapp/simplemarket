@@ -1,7 +1,7 @@
 import pandas as pd
 import openai
 import matplotlib
-from openai.embeddings_utils import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 
 # Initialize OpenAI API key
