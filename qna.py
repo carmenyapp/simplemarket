@@ -1,5 +1,6 @@
 import pandas as pd
 import openai
+import matplotlib
 from openai.embeddings_utils import cosine_similarity
 import streamlit as st
 
