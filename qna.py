@@ -1,5 +1,7 @@
 import pandas as pd
 from openai.embeddings_utils import cosine_similarity
+import openai
+import streamlit as st
 
 # Load the dataset (assuming it's a CSV)
 df = pd.read_csv("Heart_Lung_and_BloodQA.csv")
