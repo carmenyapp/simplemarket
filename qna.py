@@ -40,7 +40,7 @@ def find_best_answer(user_question):
    else:
       return "No FAQ related to your question. Please ask another question."
 
-  import streamlit as st
+import streamlit as st
 
 st.title("Question Answering App")
 
